@@ -113,7 +113,8 @@ background-color: #e1e1e1;
 
 .firstimage img
 {
-width: 100%;	
+	padding:10px 10px 10px 30px;
+width: 90%;	
 }
 .firstblock h1
 {
@@ -213,8 +214,8 @@ font-size:19px;
 }
 .blockfour img
 {
-	width: 100%;
-	padding:20px;
+width: 90%;
+	padding:10px 10px 10px 11px;
 }
 .imgupfooter img
 {
@@ -333,6 +334,13 @@ position: absolute;
 
 
 
+@media screen and (max-width: 1164px)
+{
+.blockfour
+{
+vertical-align: top;
+}
+}
 @media screen and (max-width: 1119px)
 {
 	.blog , .twitter, .flicker
@@ -529,7 +537,7 @@ width: 100%;
 		padding:10px;
 	}
 	.topnav .toggleMenu:hover li{
-		display: block;
+		display: inline-block;
 	}
 	.topnav .toggleMenu:hover .search{
 		display: block;
